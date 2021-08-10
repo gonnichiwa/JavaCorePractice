@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassPractice/ClassPractice.iml" filepath="$PROJECT_DIR$/ClassPractice/ClassPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionPractice/CollectionPractice.iml" filepath="$PROJECT_DIR$/CollectionPractice/CollectionPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExtendsAbstractExample/ExtendsAbstractExample.iml" filepath="$PROJECT_DIR$/ExtendsAbstractExample/ExtendsAbstractExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMapPractice/HashMapPractice.iml" filepath="$PROJECT_DIR$/HashMapPractice/HashMapPractice.iml" />
