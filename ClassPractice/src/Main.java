@@ -48,7 +48,11 @@ public class Main {
         List<AirCon> airConList = new ArrayList<>();
         airConList.add(airCon);
         airConList.add(airCon2);
-
+        airConList.add(new AirCon("samsung",
+                "black",
+                3000,
+                10,
+                12));
 
     }
 }
