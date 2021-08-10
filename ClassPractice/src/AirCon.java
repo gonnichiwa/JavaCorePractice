@@ -4,7 +4,7 @@ public class AirCon {
     String company;
     String color;
     int price;
-    int size;
+    int size = 10; // default 값
     int temp;
 
     // 메소드 정의
