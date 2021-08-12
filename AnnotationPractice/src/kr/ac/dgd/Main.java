@@ -11,7 +11,7 @@ public class Main {
 
         AnnotationExam02 exam02 = handler.getInstance(AnnotationExam02.class, InsertStringData.class)
                 .map(o -> (AnnotationExam02) o)
-                .orElse(new AnnotationExam02());
+                .orElse(new AnnotationExam02()); // java 8의 stream api
 
         System.out.println("myAge = " + exam01.getMyAge());
         System.out.println("defaultAge = " + exam01.getDefaultAge());

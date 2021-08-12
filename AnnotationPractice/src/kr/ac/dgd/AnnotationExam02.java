@@ -9,7 +9,7 @@ public class AnnotationExam02 {
 
     public AnnotationExam02() {
         myData = "No data";
-        defaultData = "No data";
+        defaultData = "No default data";
     }
 
     public String getMyData() {

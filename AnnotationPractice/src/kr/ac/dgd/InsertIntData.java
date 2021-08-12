@@ -9,5 +9,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME) // 이 어노테이션이 class파일로 변환하는 시점이 언제인지?
 public @interface InsertIntData {
-    int data() default 0;
+    int data() default 111;
 }

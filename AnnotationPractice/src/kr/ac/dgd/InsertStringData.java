@@ -8,5 +8,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface InsertStringData {
-    String data() default "default";
+    String data() default "default annotaion data";
 }

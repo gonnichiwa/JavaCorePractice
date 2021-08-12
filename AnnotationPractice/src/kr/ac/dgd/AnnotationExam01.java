@@ -9,7 +9,7 @@ public class AnnotationExam01 {
 
     public AnnotationExam01() {
         this.myAge = -1;
-        this.defaultAge = -1;
+//        this.defaultAge = -1;
     }
 
     public int getMyAge() {
