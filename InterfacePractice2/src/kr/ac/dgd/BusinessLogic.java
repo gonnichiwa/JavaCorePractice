@@ -2,7 +2,7 @@ package kr.ac.dgd;
 
 
 
-public class Main {
+public class BusinessLogic {
 
     public static void main(String[] args) {
         System.out.println("interfacePractice2");
