@@ -27,5 +27,15 @@ public class Main {
                 e.printStackTrace();
             }
         }
+
+        // 번외 : StringBuilder (append가 있길래)
+        StringBuilder sb = new StringBuilder("hihi");
+        sb.append("방가방가");
+        System.out.println(sb); // result : hihi방가방가
+        // 위코드는 아래와 출력 내용이 같다.
+        String str = "hihi";
+        str = str + "방가방가";
+        System.out.println(str);
+
     }
 }
