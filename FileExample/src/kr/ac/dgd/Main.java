@@ -3,7 +3,6 @@ package kr.ac.dgd;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
 
@@ -31,7 +30,6 @@ public class Main {
 
         // getAbsolutePath() : 절대 경로 - C://segsegeg/segseg/sgsegs/segseg/segseg/awfawf/sgeseg/segseg.jpg
         // 상대경로 : 경로 자체를 호출하는 파일의 위치를 기준으로 쓰는 경로. (../ ./)
-
         File makeFile = new File("/Users/jae-hunjeong/dev/JavaExample/JavaCorePractice/test/testFile.txt");
         try {
             makeFile.createNewFile(); // java 언어에서는 일부 객체의 메소드에 한해 강제적인 예외처리를 요구한다. (파일접근 , db관련 , ...) - java 시스템 바깥의 시스템에 접근해서 뭔가를 하고 싶을때.
